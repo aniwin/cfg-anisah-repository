@@ -102,8 +102,8 @@ List of key requirements
 · What components or tools would you potentially use?
 
 - SQL for the database
-- Server 
 - Using third party payment system for payments to support different payment methods
-- Using a cache to show users information on movies being shown  in each city
+- Using a cache to show users information on movies being shown in each city
 - UI- ReactJS
 - Using analytical tools to see top performing movies and which cinema locations sell the most tickets
+- push notification OneSignal
