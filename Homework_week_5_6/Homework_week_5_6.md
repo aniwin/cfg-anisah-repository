@@ -39,24 +39,24 @@ S4. As an administrator I want to see all classes booked by users
 
 
 
-
+Tasks
 
 S1.
 
-1. Create welcome login page
+Task 1. Create welcome login page
 
 S2.
 
-1. Create function to input users which date they want to go to yoga class
-1. Function to input time availability
+Task 1. Create function to input users which date they want to go to yoga class
+Task 2. Function to input time availability
 
 S3.
 
-1. Create a function to select from different yoga instructor
+Task 1. Create a function to select from different yoga instructor
 
 S4.
 
-1. Create new database to store booked classes
+Task 1. Create new database to store booked classes
 
 
 Tasks that can be done in parallel
@@ -79,10 +79,10 @@ You do not need to write actual code, but describe the high-level approach:
 
 List of key requirements
 
-- Users should be able to see what movies are being screened, information about each movie, cinema venues and 
-- Users should be able to select screening dates and times
+- Users should be able to see what movies are being screened, information about each movie and cinema venues
+- Users should be able to see screening dates and times
 - Users should be able to choose number of tickets and seating
-- Users should be able to sign up and login before booking tickets
+- Users must sign up and login before booking tickets
 - System to send them e-tickets and cancellations with an email or to user’s phone by SMS notifications
 - Creating a database to store payment data and for user queries
 
