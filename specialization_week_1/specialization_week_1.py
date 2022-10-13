@@ -75,7 +75,7 @@ class Student:
         self.subjects = dict()
 
     def show(self):
-        print(f'Name:{self.name}, Age: {self.age}, subjects taken:{self.subjects}')
+        print(f'Name:{self.name}, Age: {self.age}, id_no: {self.id},subjects taken and grades:{self.subjects}')
 
 class CFGStudent(Student):
     def __init__(self, name, age, id):
@@ -99,12 +99,14 @@ class CFGStudent(Student):
 
 
 ani = CFGStudent('hafsa', 23, 3)
+ani.show()
 ani.add_subject_grade('foundation', 12)
 ani.add_subject_grade('project', 16)
+ani.show()
 ani.view_all_subjects()
 ani.overall_marks()
 ani.remove_subject_grade('project')
-
+ani.view_all_subjects()
 
 
 # class CFGStudent(<should inherit from Student>)
