@@ -110,6 +110,6 @@ ani.view_all_subjects()
 
 
 # class CFGStudent(<should inherit from Student>)
-#     create new methods that manage student's subects (add/remove new subject and its graade to the dict)
+#     create new methods that manage student's subjects (add/remove new subject and its graade to the dict)
 #     create a method to view all subjects taken by a student
 #     create a method  (and a new variable) to get student's overall mark (use average)
