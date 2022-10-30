@@ -190,7 +190,7 @@ c.sleeping()
 
 ## 4. If you had to make a program that could vote for the top three funniest people in the office, how would you do that? How would you make it possible to vote on those people? 
 
-Assuming each employee can vote for 1 funniest person and the program will finally pick the top 3 funniest people in the office. 
+Each person in the office should be only to vote for one person each. They shouldn't be able to vote multiple times. 
 
 \1) Create a model class for Employee. This class should contain class variables such as employee id, name, Voted employee and Vote count. Voted Employee is again an instance to the Employee class and it is used to contain the object of which person an employee is voting. Vote count is used later to store the number of votes each employee received for being the funniest 
 
