@@ -211,8 +211,8 @@ It is a methodology used to build software. It defines responsibilities for team
 The stages of the software development cycle are:
 
 1) Planning- In this stage project leaders look at labor, material costs, creating timetable and including feedback from stakeholders. The purpose of the project is clearly defined.
-1) Requirements – What the project is meant to do and its requirements are determined. The resources also needed for the project are decided.
-1) Design – In this stage system and software design  documents are prepared as per requirement specification. 2 types of design documents are developed in this phase:
+2) Requirements – What the project is meant to do and its requirements are determined. The resources also needed for the project are decided.
+3) Design – In this stage system and software design  documents are prepared as per requirement specification. 2 types of design documents are developed in this phase:
 
 High-level Design(HLD)
 
@@ -232,12 +232,12 @@ Low-Level Design (LLD)
 - Listing of error messages
 
 
-4)Implementation
+4) Implementation
 
 This is where the developers code using chosen programming languages. Tasks are devided into units or modules and assigned to different developers. The implementation phase os the longest phase of the SDLC process.
 
 
-5)Testing
+5) Testing
 
 Once the software is completed it is deployed in the testing environment. The testing team check the functionality of the entire system. This is to verify that the entire application works to the customers needs. Testing involves:
 
@@ -248,13 +248,13 @@ Once the software is completed it is deployed in the testing environment. The te
 -Acceptance Testing
 
 
-6)Evaluation
+6) Evaluation
 
 Once a system has been delivered to the end user/client it undergoes a post-implementation review. The delivered system should then fully evaluate on the basis of its
 -effectiveness, usability and maintainability
 
 
-7)Maintenance 
+7) Maintenance 
 
 Once the software is deployed and is used by customers.
 
