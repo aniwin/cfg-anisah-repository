@@ -48,6 +48,7 @@ class Animal:
 
     def get_age(self, dob):
         today = date.today()
+        date_obj = date.strptime(dob, '%d%m%Y')
 
         return {'years': int(date.today().year - year), 'months': int(date.today().month - month)}
 
